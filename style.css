@@ -448,13 +448,15 @@ footer{
     font-size: 24px;
     font-family: DM Sans;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 150%;
     padding-bottom: 28px;
+    display: flex;
+    justify-content: center;
 }
 
-footer span{
-    font-weight: bolder;
+.footer-title span{
+    font-weight: 700;
 }
 
 .input {
