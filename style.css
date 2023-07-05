@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.logo-desktop, .nav-elements, .desktop-images, 
+.textBox-desktop, .textBox-icon, .main2-desktop{
+    display: none;
+}
+
 .main {
     background: url(./assets/Noise.png);
     background-color: #029954;

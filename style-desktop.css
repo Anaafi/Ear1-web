@@ -1,0 +1,250 @@
+@media screen and (min-width: 865px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .logo, .menu, .textBox, .main2{
+        display: none;
+    }
+    .logo-desktop {
+        display: flex;
+    }
+
+    .nav-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 47px 120px 0px 119px;
+    }
+    
+    .nav-elements{
+        display: flex;
+        gap: 52px;
+    }
+
+    .nav-elements a {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 20px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 116.6%;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .text h2 {
+        color: #FFF;
+        text-align: center;
+        font-size: 130px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 94.6%;
+        letter-spacing: -7.8px;
+        padding-top: 132.56px;
+        padding-left: 120px;
+        padding-right: 120px;
+        width: 1200px;
+    }
+
+    .text p{
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        width: 588px;
+        padding-top: 40px;
+    }
+
+
+    .picture1{
+        display: none;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        padding-top: 56.38px;
+    }
+    
+    .desktop-Bimages{
+        display:flex;
+        width: 100%;
+
+    }
+    
+    .desktop-images{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .d-images3 {
+        z-index: 1;
+        padding-right: 150px;
+    }
+    .d-images2 {
+        position: absolute;
+        bottom: 0px;
+        right: 40px;
+        
+    }
+    .d-images1{
+        position: absolute;
+        bottom: 0px;
+        left: 10px;
+    }
+
+    .textBox-desktop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 143px;
+        padding-left: 122px;
+        padding-bottom: 150px;
+        position: relative;
+        
+    }
+
+    .textBox-desktop h3{
+        color: #007640;
+        font-size: 72px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 101.1%;
+        letter-spacing: -2.16px;
+        width: 582px;
+    }
+
+    .textBox-desktop p{
+        color: #000;
+        font-size: 20px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 683px;
+        padding-top: 31px;
+    }
+
+    .textBox-desktop{
+        background-image: url(./assets/assets-desktop/Combined\ Shape\ Clipped.svg);
+        background-repeat: no-repeat;
+        background-position: top right;
+        z-index: 1;
+    }
+
+    .textBox-icon{
+        display: flex;
+        position: absolute;
+        top: 1560px;
+        left: 70px;
+    }
+
+    .main2-desktop{
+        display: flex;
+        gap: 277px;
+        
+    }
+
+    .main2-desktop-text{
+        display: flex;
+        flex-direction: column;
+        padding-top: 134px;
+        padding-left: 129px;
+        padding-bottom: 97px;
+    }
+
+    .main2-desktop-text h5{
+        color: #000;
+        font-size: 16px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 116.6%;
+        letter-spacing: -0.48px;
+        border-radius: 50px;
+        background-color: #FFBB62;
+        padding: 7px 33px;
+        width: 100px;
+        height: 32px
+    }
+
+    .main2-desktop-text h3 {
+        color: #121212;
+        font-size: 68px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 101.1%;
+        letter-spacing: -2.04px;
+        padding-top: 40px;
+        width: 481px;
+    }
+
+    .main2-desktop-text p{
+        color: #121212;
+        font-size: 20px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        padding-top: 32px;
+        width: 481px;
+    }
+
+    .main2-desktop-images{
+        display: flex;
+        align-items: center;
+        position: relative;
+        
+        
+    }
+
+    .m2-dkt-image1{
+        position: absolute;
+    }
+
+    .m2-dkt-image2{
+        position: absolute;
+    }
+   
+    .m2-dkt-image3{
+        position: absolute;
+        left: 10px;
+    }
+
+    .m2-dkt-image4{
+        position: absolute;
+        left: 10px;
+    }
+
+    .m2-dkt-image5{
+        position: absolute;
+        left: 10px;
+    }
+
+
+
+}
