@@ -1,4 +1,4 @@
-@media screen and (min-width: 867px){
+@media screen and (min-width: 900px){
 
     *{
         margin: 0;
@@ -102,6 +102,8 @@
         max-width: 100%;
         justify-content: center;
         align-items: center;
+
+
     }
     .d-images3 {
         z-index: 1;
@@ -166,12 +168,17 @@
         left: 70px;
     }
 
+
+
     .main2-desktop{
         max-width: 100px;
         display: flex;
-        gap: 10rem;
-        
-        
+        /*gap: 10rem;*/
+            
+    }
+
+    .mains-dimage-cont{
+        padding-left: 10rem;
     }
 
     .main2-desktop-text{
@@ -180,6 +187,7 @@
         padding-top: 134px;
         padding-left: 129px;
         padding-bottom: 97px;
+        z-index: 1;
     }
 
     .main2-desktop-text h5{
@@ -224,6 +232,7 @@
         display: flex;
         align-items: center;
         position: relative;
+        top: 300px;
 
         
         
