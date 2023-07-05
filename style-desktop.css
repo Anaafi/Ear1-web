@@ -1,9 +1,13 @@
-@media screen and (min-width: 865px){
+@media screen and (min-width: 867px){
 
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+
+    body{
+        max-width: 100%;
     }
 
     .logo, .menu, .textBox, .main2{
@@ -163,8 +167,10 @@
     }
 
     .main2-desktop{
+        max-width: 100px;
         display: flex;
-        gap: 277px;
+        gap: 10rem;
+        
         
     }
 
@@ -218,31 +224,38 @@
         display: flex;
         align-items: center;
         position: relative;
+
         
         
     }
 
     .m2-dkt-image1{
+        display: flex;
         position: absolute;
     }
 
     .m2-dkt-image2{
+        display: flex;
         position: absolute;
     }
    
     .m2-dkt-image3{
+        display: flex;
         position: absolute;
         left: 10px;
     }
 
     .m2-dkt-image4{
+        display: flex;
         position: absolute;
         left: 10px;
     }
 
     .m2-dkt-image5{
+        display: flex;
         position: absolute;
         left: 10px;
+        
     }
 
 
